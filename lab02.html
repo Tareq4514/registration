@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bank Registration Form</title>
+  </head>
+  <body>
+    <label for="search_query">Search:</label>
+    <input type="text" id="search_query" name="q" text-align="right" required />
+    <input type="submit" value="Search" /><br />
+    <h2>Bank Registration Form</h2>
+    <fieldset>
+      <legend>Fill your form</legend>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br />
+        <label for="father name">Father Name:</label>
+        <input
+          type="text"
+          id="fathername"
+          name="fathername"
+          placeholder="Enter your father name"
+          required
+        /><br />
+        <label for="mother name">Mother Name:</label>
+        <input
+          type="text"
+          id="mothername"
+          name="mothername"
+          placeholder="Enter your mother name"
+          required
+        /><br />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option></select
+        ><br />
+        <p>Please select your Blood Group:</p>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">AB+</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">AB-</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">A+</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">A-</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">B+</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">B-</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">O+</label>
+        <input type="radio" id="bloodgroup" name="bloodgroup" />
+        <label for="bloodgroup">O-</label><br /><br />
+
+        <label for="Religion">Religion</label>
+        <select name="Religion" id="Religion">
+          <option value="Islam">Islam</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Christian">Christian</option>
+          <option value="Bhuddo">Bhuddo</option></select
+        ><br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" /> <br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br />
+
+        <label for="nid">NID serial:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your nid serial"
+          required
+        /><br />
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your Phone Number"
+          required
+        /><br />
+        <label for="account-type">Account Type:</label>
+        <select id="account-type" name="account-type" required>
+          <option value="" disabled selected>Select account type</option>
+          <option value="savings">Savings</option>
+          <option value="current">Current</option></select
+        ><br />
+
+        <label for="initial-deposit">Initial Deposit:</label>
+        <input
+          type="number"
+          id="initial-deposit"
+          name="initial-deposit"
+          required
+        /><br /><br />
+        <label for="additional_options">Additional Options:</label><br />
+        <input type="checkbox" id="internet_banking" name="internet_banking" />
+        <label for="internet_banking">Internet Banking</label><br />
+        <input type="checkbox" id="sms_alerts" name="sms_alerts" />
+        <label for="sms_alerts">SMS Alerts</label><br />
+        <input
+          type="checkbox"
+          id="overdraft_facility"
+          name="overdraft_facility"
+        />
+        <label for="overdraft_facility">Overdraft Facility</label><br /><br />
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea
+        ><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Write your password"
+          required
+        /><br />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          placeholder="Confirm your password"
+          required
+        /><br />
+        <label for="myfile">Insert your image JPG file:</label>
+        <input
+          type="file"
+          id="myfile"
+          name="myfile"
+          accept="image/*"
+        /><br /><br />
+        <label for="time">Insert your time</label>
+        <input
+          type="datetime-local"
+          id="time"
+          name="time"
+          accept="image/*"
+        /><br /><br />
+        <input type="submit" value="Submit" /> <br />
+
+        <a href="https://www.w3schools.com/">For more info</a>
+      </form>
+    </fieldset>
+  </body>
+</html>
